@@ -15,6 +15,7 @@ function createNote() {
 
     var headimg = document.createElement('img')
     headimg.setAttribute('src', 'images/delete.png')
+    headimg.setAttribute('onclick', 'remove(this)')
     head.appendChild(headimg)
 
     var text = document.createElement('div')
@@ -27,4 +28,9 @@ function createNote() {
 
     var content = document.getElementById('id-content')
     content.appendChild(card)
+}
+
+function remove(el) {
+    var toRemove = el.parentNode.parentNode
+    toRemove.remove()
 }
