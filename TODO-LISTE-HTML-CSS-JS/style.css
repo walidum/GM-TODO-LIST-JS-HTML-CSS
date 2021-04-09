@@ -96,3 +96,39 @@ body {
     font-weight: bold;
     font-size: 1rem;
 }
+
+.form {
+    width: 40%;
+    height: 20rem;
+    background-color: #ffffff;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form input {
+    width: 60%;
+    height: 2rem;
+    outline: none;
+    margin-top: 1rem;
+}
+
+.send-btn {
+    width: 60%;
+    height: 2rem;
+    background-color: #262664;
+    border-radius: .5rem;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.send-btn span {
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: bold;
+}
