@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    margin-top: 2rem;
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar span {
+    font-weight: bold;
+    font-size: 2rem;
+    margin-left: 3rem;
+}
+
+.add-btn {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    margin-right: 3rem;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.add-btn image {
+    width: 80%;
+    height: 80%;
+}
