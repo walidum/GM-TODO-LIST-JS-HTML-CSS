@@ -115,6 +115,12 @@ body {
     margin-top: 1rem;
 }
 
+.form textarea {
+    width: 60%;
+    outline: none;
+    margin-top: 1rem;
+}
+
 .send-btn {
     width: 60%;
     height: 2rem;
