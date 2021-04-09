@@ -45,6 +45,8 @@ function show() {
 }
 
 function dShow() {
-    document.getElementById('form').style.display = 'none'
-    document.getElementById('id-content').style.display = 'flex'
+    document.getElementById('form')
+        .style.display = 'none'
+    document.getElementById('id-content')
+        .style.display = 'flex'
 }
