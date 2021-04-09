@@ -53,5 +53,24 @@ body {
     width: 15rem;
     height: 15rem;
     border-radius: 1rem;
-    background-color: blue;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.head {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head span {
+    margin-left: .5rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.head img {
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
 }
