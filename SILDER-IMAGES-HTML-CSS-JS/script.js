@@ -17,4 +17,17 @@ setInterval(() => {
     change();
     cpt++;
     if (cpt > 4) cpt = 0;
-}, 2000)
+}, 4000)
+
+
+function next() {
+    cpt++;
+    if (cpt > 4) cpt = 0;
+    change()
+}
+
+function previous() {
+    cpt--;
+    if (cpt < 0) cpt = 0;
+    change()
+}
