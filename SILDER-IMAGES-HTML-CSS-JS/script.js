@@ -28,6 +28,6 @@ function next() {
 
 function previous() {
     cpt--;
-    if (cpt < 0) cpt = 0;
+    if (cpt < 0) cpt = 4;
     change()
 }
