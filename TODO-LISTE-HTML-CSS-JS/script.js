@@ -29,6 +29,8 @@ function createNewNote() {
     var content = document.getElementById('id-content')
     content.appendChild(card)
     dShow();
+    document.getElementById('title').value = ''
+    document.getElementById('content').value = ''
 }
 
 
